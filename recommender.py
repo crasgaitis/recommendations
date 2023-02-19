@@ -18,7 +18,7 @@ with st.sidebar:
 st.markdown(
     """
     <img src="https://media.discordapp.net/attachments/1072641353030320219/1075635642056319016/pocket_plots.png?width=935&height=246
-" alt="image"> """,
+" alt="image" style = "max-width: 60vw"> """,
     unsafe_allow_html=True )
 
 
@@ -29,7 +29,7 @@ if submit:
 
     st.markdown(
         """
-        <img src="https://i.imgur.com/iCDyPAt.jpg" alt="image"> """,
+        <img src="https://i.imgur.com/iCDyPAt.jpg" alt="image" style = "max-height: 50vh"> """,
         unsafe_allow_html=True )
 
     st.markdown(":green[*a forest filled thin trees and bushes*]")
