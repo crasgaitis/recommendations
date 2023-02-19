@@ -27,7 +27,7 @@ submit = st.button("Recommend a parcel!")
 
 if submit:
 
-    if user_input = 'i want grassy land with water nearby':
+    if user_input == 'i want grassy land with water nearby':
         st.markdown(
             """
 
@@ -38,7 +38,7 @@ if submit:
         
     else if user_input = "large rock wall mountain range behind"
    
-    if user_input = 'rocky with mountains':
+    if user_input == 'rocky with mountains':
         st.markdown(
             """
 
@@ -47,7 +47,7 @@ if submit:
 
         st.markdown(":green[*a large rock wall with a mountain range behind*]")    
     
-    if user_input = 'i want lots of trees and vegetation':
+    if user_input == 'i want lots of trees and vegetation':
         st.markdown(
             """
 
