@@ -27,10 +27,40 @@ submit = st.button("Recommend a parcel!")
 
 if submit:
 
-    st.markdown(
-        """
-        <img src="https://i.imgur.com/iCDyPAt.jpg" alt="image" style = "max-height: 40vh"> """,
-        unsafe_allow_html=True )
+    if user_input = 'i want grassy land with water nearby':
+        st.markdown(
+            """
 
-    st.markdown(":green[*a forest filled with thin trees and bushes*]")
+            <img src="https://i.imgur.com/iCDyPAt.jpg" alt="image" style = "max-height: 40vh"> """,
+            unsafe_allow_html=True )
 
+        st.markdown(":green[*a river surrounded by tall grass*]")
+        
+    else if user_input = "large rock wall mountain range behind"
+   
+    if user_input = 'rocky with mountains':
+        st.markdown(
+            """
+
+            <img src="https://i.imgur.com/NNn2hVG.jpg" alt="image" style = "max-height: 40vh"> """,
+            unsafe_allow_html=True )
+
+        st.markdown(":green[*a large rock wall with a mountain range behind*]")    
+    
+    if user_input = 'i want lots of trees and vegetation':
+        st.markdown(
+            """
+
+            <img src="https://i.imgur.com/ssrGHE3.jpg" alt="image" style = "max-height: 40vh"> """,
+            unsafe_allow_html=True )
+
+        st.markdown(":green[*a forest filled with thin trees and bushes*]")
+     
+    else:
+        st.markdown(
+            """
+
+            <img src="https://i.imgur.com/c5Bj6sB.jpg" alt="image" style = "max-height: 40vh"> """,
+            unsafe_allow_html=True )
+
+        st.markdown(":green[*a tree in the middle of a grassy field with hills behind*]")
