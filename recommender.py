@@ -35,10 +35,8 @@ if submit:
             unsafe_allow_html=True )
 
         st.markdown(":green[*a river surrounded by tall grass*]")
-        
-    else if user_input = "large rock wall mountain range behind"
    
-    if user_input == 'rocky with mountains':
+    elif user_input == 'rocky with mountains':
         st.markdown(
             """
 
@@ -47,7 +45,7 @@ if submit:
 
         st.markdown(":green[*a large rock wall with a mountain range behind*]")    
     
-    if user_input == 'i want lots of trees and vegetation':
+    elif user_input == 'i want lots of trees and vegetation':
         st.markdown(
             """
 
