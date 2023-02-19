@@ -7,15 +7,11 @@ st.set_page_config(
 )
 
 with st.sidebar:
-    min_price, max_price = st.select_slider(
-    'Select your price range',
-    options=[50, 30000],
-    value=('500', '1500'))
+    min_number = st.number_input('Insert min price')
+    max_number = st.number_input('Insert max price')
 
-    min_acres, max_acres = st.select_slider(
-    'Select your land size',
-    options=[0.1, 45],
-    value=('2', '5.5'))
+    min_number2 = st.number_input('Insert min size (acres)')
+    max_number2 = st.number_input('Insert max size (acres)')
     
     user_input = st.text_input('Describe your desired land plot.', 'i want grassy land with water nearby')
     
