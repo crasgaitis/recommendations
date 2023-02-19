@@ -10,8 +10,8 @@ with st.sidebar:
     min_number = st.number_input('Insert min price', min_value = 900, max_value = 44999, value = 5000)
     max_number = st.number_input('Insert max price', min_value = 901, max_value = 45000, value = 15000)
 
-    min_number2 = st.number_input('Insert min size (acres)', min_value = 0.1, max_value = 41, value = 5)
-    max_number2 = st.number_input('Insert max size (acres)', min_value = 0.2, max_value = 42, value = 10)
+    min_number2 = st.number_input('Insert min size (acres)', min_value = 0, max_value = 41, value = 5)
+    max_number2 = st.number_input('Insert max size (acres)', min_value = 1, max_value = 42, value = 10)
     
     user_input = st.text_input('Describe your desired land plot.', 'i want grassy land with water nearby')
     
