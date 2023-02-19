@@ -7,11 +7,11 @@ st.set_page_config(
 )
 
 with st.sidebar:
-    min_number = st.number_input('Insert min price', min_value = 900, max_value = 44999)
-    max_number = st.number_input('Insert max price', min_value = 901, max_value = 45000)
+    min_number = st.number_input(label = 'Insert min price', min_value = 900, max_value = 44999)
+    max_number = st.number_input(label = 'Insert max price', min_value = 901, max_value = 45000)
 
-    min_number2 = st.number_input('Insert min size (acres)', min_value = 0.1, max_value = 2999)
-    max_number2 = st.number_input('Insert max size (acres)', min_value = 0.2, max_value = 3000)
+    min_number2 = st.number_input(label = 'Insert min size (acres)', min_value = 0.1, max_value = 2999)
+    max_number2 = st.number_input(label = 'Insert max size (acres)', min_value = 0.2, max_value = 3000)
     
     user_input = st.text_input('Describe your desired land plot.', 'i want grassy land with water nearby')
     
