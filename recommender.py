@@ -32,5 +32,5 @@ if submit:
         <img src="https://i.imgur.com/iCDyPAt.jpg" alt="image" style = "max-height: 40vh"> """,
         unsafe_allow_html=True )
 
-    st.markdown(":green[*a forest filled thin trees and bushes*]")
+    st.markdown(":green[*a forest filled with thin trees and bushes*]")
 
